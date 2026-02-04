@@ -1,10 +1,13 @@
-const aeaeaeSONG = [
+const fileURL = "https://raw.githubusercontent.com/MAARTEN0015/song-lyrics-db/main/files/";
+const imgURL = "https://raw.githubusercontent.com/MAARTEN0015/song-lyrics-db/main/images/";
+
+const Songs = [
     {
         "id": 1,
         "author": "УННВ",
         "name": "Пока тлеет гашиш",
-        "file": "",
-        "image": "",
+        "file": "poka_tleet_gashish.mp3",
+        "image": "pokatleet.jpg",
         "lyrics": [
             {"0:04": "Небо над нами зависло, сколько мне ждать, когда ты успокоишься"},
             {"0:10": "Внимание твоё — это моя утопия, ты заявляешь, что всё будет, как было"},
